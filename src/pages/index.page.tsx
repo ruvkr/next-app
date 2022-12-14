@@ -7,10 +7,13 @@ import styled from 'styled-components';
 const Home: NextPage = () => {
   return (
     <ScContainer>
+      {/* Parent component */}
       <Counter>
         {({ count, setCount }) => (
           <>
+            {/* Child component */}
             <Controller setCount={setCount} />
+            {/* Sibling component */}
             <CountInfo count={count} />
           </>
         )}
