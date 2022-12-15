@@ -2,10 +2,10 @@ import { useState } from 'react';
 import styled from 'styled-components';
 
 export type CounterProps = {
-  children: (props: CountRenderProps) => JSX.Element | null;
+  children: (props: CounterChildProps) => JSX.Element | null;
 };
 
-export type CountRenderProps = {
+export type CounterChildProps = {
   count: number;
   setCount: (newValue: number | ((value: number) => number)) => void;
 };
