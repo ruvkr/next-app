@@ -1,0 +1,9 @@
+{
+  "quoteProps": "consistent",
+  "singleQuote": true,
+  "arrowParens": "avoid",
+  "jsxBracketSameLine": true,
+  "bracketSameLine": true,
+  "printWidth": 120,
+  "plugins": ["prettier-plugin-organize-imports"]
+}
